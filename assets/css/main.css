@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    @apply font-roboto font-normal not-italic text-black;
+}
+
+html, body, #__nuxt {
+    @apply h-full
+}
+
+@layer components {
+    .h1 {
+        @apply lg:h1_d h1_m
+    }
+
+    .h1_d {
+        @apply text-[56px] leading-[72px] font-medium -tracking-[0.01em]
+    }
+
+    .h1_m {
+        @apply text-[32px] leading-[42px] font-medium
+    }
+
+    .h2 {
+        @apply text-[24px] leading-[32px] font-medium -tracking-[0.01em]
+    }
+
+    .h3 {
+        @apply text-[20px] leading-[28px] font-medium
+    }
+
+    .h4 {
+        @apply text-[16px] leading-[24px]
+    }
+
+    .h5 {
+        @apply text-[14px] leading-[20px]
+    }
+
+    .h6 {
+        @apply text-[13px] leading-[16px]
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

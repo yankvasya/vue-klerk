@@ -9,7 +9,16 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "gray-666": "#666",
+        "gray-999": "#999",
+        "blue-4": "#316FEE",
+      },
+    },
+    fontFamily: {
+      roboto: ["Roboto", "sans-serif"],
+    },
   },
   plugins: [],
 };
